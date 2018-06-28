@@ -36,6 +36,8 @@
         function Slick(element, settings) {
 
             var _ = this, dataSettings;
+            
+            console.log(settings);
 
             _.defaults = {
                 accessibility: true,
@@ -52,7 +54,8 @@
                 centerPadding: '50px',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
-                    return $('<button type="button" />').text(i + 1);
+                    var dotsText = (settings && settings.dotsTitles) ? settings.dotsTitles[i] : (i+1);
+                    return $('<button type="button" />').text(dotsText);
                 },
                 dots: false,
                 dotsClass: 'slick-dots',
@@ -522,8 +525,8 @@
         _.$slider.addClass('slick-slider');
 
         _.$slideTrack = (_.slideCount === 0) ?
-            $('<div class="slick-track"/>').appendTo(_.$slider) :
-            _.$slides.wrapAll('<div class="slick-track"/>').parent();
+            $('<ul class="slick-track"/>').appendTo(_.$slider) :
+            _.$slides.wrapAll('<ul class="slick-track"/>').parent();
 
         _.$list = _.$slideTrack.wrap(
             '<div class="slick-list"/>').parent();
@@ -567,7 +570,7 @@
             );
 
             for(a = 0; a < numOfSlides; a++){
-                var slide = document.createElement('div');
+                var slide = document.createElement('li');
                 for(b = 0; b < _.options.rows; b++) {
                     var row = document.createElement('div');
                     for(c = 0; c < _.options.slidesPerRow; c++) {
@@ -1348,7 +1351,7 @@
                 });
 
                 if (slideControlIndex !== -1) {
-                   var ariaButtonControl = 'slick-slide-control' + _.instanceUid + slideControlIndex
+                   var ariaButtonControl = 'slick-slide-control' + _.instanceUid + slideControlIndex;
                    if ($('#' + ariaButtonControl).length) {
                      $(this).attr({
                          'aria-describedby': ariaButtonControl
@@ -1360,22 +1363,20 @@
             _.$dots.attr('role', 'tablist').find('li').each(function(i) {
                 var mappedSlideIndex = tabControlIndexes[i];
 
-                $(this).attr({
+               /* $(this).attr({
                     'role': 'presentation'
-                });
+                });*/
 
                 $(this).find('button').first().attr({
                     'role': 'tab',
                     'id': 'slick-slide-control' + _.instanceUid + i,
                     'aria-controls': 'slick-slide' + _.instanceUid + mappedSlideIndex,
-                    'aria-label': (i + 1) + ' of ' + numDotGroups,
-                    'aria-selected': null,
-                    'tabindex': '-1'
+                    //'aria-label': (i + 1) + ' of ' + numDotGroups,
+                    'aria-selected': null
                 });
 
             }).eq(_.currentSlide).find('button').attr({
-                'aria-selected': 'true',
-                'tabindex': '0'
+                'aria-selected': 'true'
             }).end();
         }
 
