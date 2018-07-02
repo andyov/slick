@@ -36,8 +36,6 @@
         function Slick(element, settings) {
 
             var _ = this, dataSettings;
-            
-            console.log(settings);
 
             _.defaults = {
                 accessibility: true,
@@ -196,9 +194,7 @@
 
         _.$slideTrack.find('.slick-active').attr({
             'aria-hidden': 'false'
-        }).find('a, input, button, select').attr({
-            'tabindex': '0'
-        });
+        }).find('a, input, button, select').removeAttr('tabindex');
 
     };
 
