@@ -35,7 +35,10 @@
 
         function Slick(element, settings) {
 
-            var _ = this, dataSettings;
+            var
+              _ = this,
+              dataSettings,
+              dotsTitles = (settings && settings.dotsTitles) ? dotsTitles :[];
 
             _.defaults = {
                 accessibility: true,
@@ -52,7 +55,7 @@
                 centerPadding: '50px',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
-                    var dotsText = (settings && settings.dotsTitles) ? settings.dotsTitles[i] : (i+1);
+                    var dotsText = dotsTitles.length ? settings.dotsTitles[i] : (i+1);
                     return $('<button type="button" />').text(dotsText);
                 },
                 dots: false,

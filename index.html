@@ -401,11 +401,12 @@
         slidesToShow: 5,
         slidesToScroll: 3
       });
+
       $(".responsive").slick({
         dots: true,
         infinite: false,
         variableWidth: true,
-        arrows:false,
+        arrows:true,
         responsive: [{
           breakpoint: 10000,
           settings: {slidesToShow: 6, slidesToScroll: 6}
@@ -416,8 +417,9 @@
           breakpoint: 767,
           settings: {slidesToShow: 2, slidesToScroll: 2}
         }],
-        dotsText:['title 1', 'title 2', 'title 3', 'title 4']
+        dotsTitles:['title 1', 'title 2', 'title 3', 'title 4']
       });
+
       $(".lazy").slick({
         lazyLoad: 'ondemand', // ondemand progressive anticipated
         infinite: true
