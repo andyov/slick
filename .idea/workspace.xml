@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7787164c-b90d-4fd7-8018-cfdbc0e68c9f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.js" afterPath="$PROJECT_DIR$/slick/slick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick/slick.min.js" afterPath="$PROJECT_DIR$/slick/slick.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,12 +65,11 @@
       <file leaf-file-name="slick.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slick/slick.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="40" column="69" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3037" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#483#742#0" expanded="true" />
-                <element signature="e#1096#3141#0" expanded="true" />
                 <element signature="e#1759#1938#0" expanded="true" />
                 <element signature="e#3169#4051#0" expanded="true" />
                 <element signature="e#6392#6577#0" expanded="true" />
@@ -244,10 +241,22 @@
         </entry>
       </file>
       <file leaf-file-name="slick.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/slick-1.9.3/slick/slick.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slick/slick.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="72">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -382,12 +391,12 @@
       <workItem from="1530184953009" duration="9386000" />
       <workItem from="1530517037807" duration="5304000" />
       <workItem from="1530605560508" duration="12000" />
-      <workItem from="1530867468054" duration="1471000" />
+      <workItem from="1530867468054" duration="2243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16173000" />
+    <option name="totallyTimeSpent" value="16945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -469,7 +478,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#483#742#0" expanded="true" />
-            <element signature="e#1096#3141#0" expanded="true" />
             <element signature="e#1759#1938#0" expanded="true" />
             <element signature="e#3169#4051#0" expanded="true" />
             <element signature="e#6392#6577#0" expanded="true" />
@@ -694,7 +702,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#483#742#0" expanded="true" />
-            <element signature="e#1096#3141#0" expanded="true" />
             <element signature="e#1759#1938#0" expanded="true" />
             <element signature="e#3169#4051#0" expanded="true" />
             <element signature="e#6392#6577#0" expanded="true" />
@@ -919,7 +926,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#483#742#0" expanded="true" />
-            <element signature="e#1096#3141#0" expanded="true" />
             <element signature="e#1759#1938#0" expanded="true" />
             <element signature="e#3169#4051#0" expanded="true" />
             <element signature="e#6392#6577#0" expanded="true" />
@@ -1137,14 +1143,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick.js">
+    <entry file="file://$USER_HOME$/.cache/.fr-AQgnBD/slick-1.9.3/slick/slick.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="40" column="69" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3037" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#483#742#0" expanded="true" />
-            <element signature="e#1096#3141#0" expanded="true" />
+            <element signature="e#755#90084#0" expanded="true" />
+            <element signature="e#836#6332#0" expanded="true" />
+            <element signature="e#911#6302#0" expanded="true" />
+            <element signature="e#1087#3132#0" expanded="true" />
+            <element signature="e#1750#1929#0" expanded="true" />
+            <element signature="e#3160#4042#0" expanded="true" />
+            <element signature="e#6383#6568#0" expanded="true" />
+            <element signature="e#6457#6503#0" expanded="true" />
+            <element signature="e#6664#7804#0" expanded="true" />
+            <element signature="e#7670#7737#0" expanded="true" />
+            <element signature="e#7854#8185#0" expanded="true" />
+            <element signature="e#8098#8150#0" expanded="true" />
+            <element signature="e#8254#10766#0" expanded="true" />
+            <element signature="e#8585#8641#0" expanded="true" />
+            <element signature="e#8748#8803#0" expanded="true" />
+            <element signature="e#9066#9130#0" expanded="true" />
+            <element signature="e#9140#9201#0" expanded="true" />
+            <element signature="e#9203#10070#0" expanded="true" />
+            <element signature="e#9338#9875#0" expanded="true" />
+            <element signature="e#9918#10052#0" expanded="true" />
+            <element signature="e#10583#10696#0" expanded="true" />
+            <element signature="e#10815#11024#0" expanded="true" />
+            <element signature="e#11074#11447#0" expanded="true" />
+            <element signature="e#11245#11428#0" expanded="true" />
+            <element signature="e#11504#12005#0" expanded="true" />
+            <element signature="e#12050#12265#0" expanded="true" />
+            <element signature="e#12315#12432#0" expanded="true" />
+            <element signature="e#12485#13168#0" expanded="true" />
+            <element signature="e#13216#14478#0" expanded="true" />
+            <element signature="e#14330#14443#0" expanded="true" />
+            <element signature="e#14524#15063#0" expanded="true" />
+            <element signature="e#15108#16401#0" expanded="true" />
+            <element signature="e#15377#15534#0" expanded="true" />
+            <element signature="e#16447#17819#0" expanded="true" />
+            <element signature="e#17668#17799#0" expanded="true" />
+            <element signature="e#17891#21500#0" expanded="true" />
+            <element signature="e#21566#23219#0" expanded="true" />
+            <element signature="e#23275#23814#0" expanded="true" />
+            <element signature="e#23864#25848#0" expanded="true" />
+            <element signature="e#25903#26080#0" expanded="true" />
+            <element signature="e#26128#26383#0" expanded="true" />
+            <element signature="e#26437#26637#0" expanded="true" />
+            <element signature="e#26688#28509#0" expanded="true" />
+            <element signature="e#27936#28031#0" expanded="true" />
+            <element signature="e#28568#28832#0" expanded="true" />
+            <element signature="e#28898#29623#0" expanded="true" />
+            <element signature="e#29008#29064#0" expanded="true" />
+            <element signature="e#29113#29155#0" expanded="true" />
+            <element signature="e#29307#29391#0" expanded="true" />
+            <element signature="e#29461#29572#0" expanded="true" />
+            <element signature="e#29682#30134#0" expanded="true" />
+            <element signature="e#29796#29884#0" expanded="true" />
+            <element signature="e#30026#30114#0" expanded="true" />
+            <element signature="e#30219#30518#0" expanded="true" />
+            <element signature="e#30567#31673#0" expanded="true" />
+            <element signature="e#30850#31240#0" expanded="true" />
+            <element signature="e#30934#31217#0" expanded="true" />
+            <element signature="e#31342#31652#0" expanded="true" />
+            <element signature="e#31756#31818#0" expanded="true" />
+            <element signature="e#31866#33027#0" expanded="true" />
+            <element signature="e#33081#37680#0" expanded="true" />
+            <element signature="e#37765#37831#0" expanded="true" />
+            <element signature="e#37887#38560#0" expanded="true" />
+            <element signature="e#38605#38635#0" expanded="true" />
+            <element signature="e#38685#39817#0" expanded="true" />
+            <element signature="e#39053#39594#0" expanded="true" />
+            <element signature="e#39904#40092#0" expanded="true" />
+            <element signature="e#39952#40070#0" expanded="true" />
+            <element signature="e#39972#40060#0" expanded="true" />
+            <element signature="e#40141#40862#0" expanded="true" />
+            <element signature="e#40906#43205#0" expanded="true" />
+            <element signature="e#41092#41174#0" expanded="true" />
+            <element signature="e#41242#41317#0" expanded="true" />
+            <element signature="e#41357#41397#0" expanded="true" />
+            <element signature="e#41513#42160#0" expanded="true" />
+            <element signature="e#41615#41770#0" expanded="true" />
+            <element signature="e#42018#42105#0" expanded="true" />
+            <element signature="e#42236#42789#0" expanded="true" />
+            <element signature="e#42451#42772#0" expanded="true" />
+            <element signature="e#42830#42885#0" expanded="true" />
+            <element signature="e#43257#43912#0" expanded="true" />
+            <element signature="e#43459#43517#0" expanded="true" />
+            <element signature="e#43629#43683#0" expanded="true" />
+            <element signature="e#43962#44628#0" expanded="true" />
+            <element signature="e#44115#44163#0" expanded="true" />
+            <element signature="e#44680#44915#0" expanded="true" />
+            <element signature="e#44968#46276#0" expanded="true" />
+            <element signature="e#45136#45175#0" expanded="true" />
+            <element signature="e#45248#45286#0" expanded="true" />
+            <element signature="e#45356#45393#0" expanded="true" />
+            <element signature="e#45469#45506#0" expanded="true" />
+            <element signature="e#46319#46632#0" expanded="true" />
+            <element signature="e#46684#47415#0" expanded="true" />
+            <element signature="e#46971#47119#0" expanded="true" />
+            <element signature="e#46999#47101#0" expanded="true" />
+            <element signature="e#47235#47382#0" expanded="true" />
+            <element signature="e#47263#47364#0" expanded="true" />
+            <element signature="e#47460#51479#0" expanded="true" />
+            <element signature="e#47584#49460#0" expanded="true" />
+            <element signature="e#47648#49447#0" expanded="true" />
+            <element signature="e#48020#49032#0" expanded="true" />
+            <element signature="e#48114#49011#0" expanded="true" />
+            <element signature="e#48661#48897#0" expanded="true" />
+            <element signature="e#49084#49383#0" expanded="true" />
+            <element signature="e#51526#51817#0" expanded="true" />
+            <element signature="e#51604#51638#0" expanded="true" />
+            <element signature="e#51886#52020#0" expanded="true" />
+            <element signature="e#51934#52011#0" expanded="true" />
+            <element signature="e#51954#52001#0" expanded="true" />
+            <element signature="e#52074#52160#0" expanded="true" />
+            <element signature="e#52231#52315#0" expanded="true" />
+            <element signature="e#52384#52558#0" expanded="true" />
+            <element signature="e#52609#53296#0" expanded="true" />
+            <element signature="e#53365#53503#0" expanded="true" />
+            <element signature="e#53413#53494#0" expanded="true" />
+            <element signature="e#53433#53484#0" expanded="true" />
+            <element signature="e#53559#53600#0" expanded="true" />
+            <element signature="e#53666#55961#0" expanded="true" />
+            <element signature="e#54273#54995#0" expanded="true" />
+            <element signature="e#55043#55822#0" expanded="true" />
+            <element signature="e#55105#55299#0" expanded="true" />
+            <element signature="e#55343#55429#0" expanded="true" />
+            <element signature="e#56019#56897#0" expanded="true" />
+            <element signature="e#56735#56870#0" expanded="true" />
+            <element signature="e#56759#56856#0" expanded="true" />
+            <element signature="e#56953#58237#0" expanded="true" />
+            <element signature="e#58140#58217#0" expanded="true" />
+            <element signature="e#58280#59453#0" expanded="true" />
+            <element signature="e#59496#59852#0" expanded="true" />
+            <element signature="e#59671#59830#0" expanded="true" />
+            <element signature="e#59960#60765#0" expanded="true" />
+            <element signature="e#60816#61677#0" expanded="true" />
+            <element signature="e#61727#63144#0" expanded="true" />
+            <element signature="e#61874#61957#0" expanded="true" />
+            <element signature="e#62158#62241#0" expanded="true" />
+            <element signature="e#63188#64043#0" expanded="true" />
+            <element signature="e#63286#63913#0" expanded="true" />
+            <element signature="e#63415#63624#0" expanded="true" />
+            <element signature="e#63679#63887#0" expanded="true" />
+            <element signature="e#63958#64034#0" expanded="true" />
+            <element signature="e#64089#64372#0" expanded="true" />
+            <element signature="e#64455#66672#0" expanded="true" />
+            <element signature="e#64466#64934#0" expanded="true" />
+            <element signature="e#65756#65811#0" expanded="true" />
+            <element signature="e#66720#66993#0" expanded="true" />
+            <element signature="e#67038#69480#0" expanded="true" />
+            <element signature="e#69538#72760#0" expanded="true" />
+            <element signature="e#72810#74275#0" expanded="true" />
+            <element signature="e#74177#74240#0" expanded="true" />
+            <element signature="e#74329#74453#0" expanded="true" />
+            <element signature="e#74508#74978#0" expanded="true" />
+            <element signature="e#75051#78699#0" expanded="true" />
+            <element signature="e#76043#76116#0" expanded="true" />
+            <element signature="e#76626#76699#0" expanded="true" />
+            <element signature="e#78241#78304#0" expanded="true" />
+            <element signature="e#78572#78627#0" expanded="true" />
+            <element signature="e#78745#79104#0" expanded="true" />
+            <element signature="e#79155#80159#0" expanded="true" />
+            <element signature="e#80209#82079#0" expanded="true" />
+            <element signature="e#82133#83110#0" expanded="true" />
+            <element signature="e#83161#85776#0" expanded="true" />
+            <element signature="e#85828#86471#0" expanded="true" />
+            <element signature="e#86554#86805#0" expanded="true" />
+            <element signature="e#86848#87392#0" expanded="true" />
+            <element signature="e#87450#87561#0" expanded="true" />
+            <element signature="e#87610#88854#0" expanded="true" />
+            <element signature="e#88901#89269#0" expanded="true" />
+            <element signature="e#89316#89552#0" expanded="true" />
+            <element signature="e#89583#90080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#483#742#0" expanded="true" />
             <element signature="e#1759#1938#0" expanded="true" />
             <element signature="e#3169#4051#0" expanded="true" />
             <element signature="e#6392#6577#0" expanded="true" />
@@ -1316,9 +1501,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slick/slick.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="72">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/slick-1.9.3/slick/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
