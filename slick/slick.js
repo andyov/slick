@@ -38,7 +38,7 @@
             var
               _ = this,
               dataSettings,
-              dotsTitles = (settings && settings.dotsTitles) ? dotsTitles :[];
+              dotsTitles = (settings && settings.dotsTitles) ? settings.dotsTitles :[];
 
             _.defaults = {
                 accessibility: true,
